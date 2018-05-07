@@ -5,17 +5,12 @@ def bark
   puts "Woof!"
 end
 
-def name=(dog_name)
-  @this_dogs_name = dogs_name
+def name=(dogs_name)
+  @name = dogs_name
 end
 
-def name
-  @this_dogs_name
+def name 
+  @name
 end
-
-fido = Dog.new
-fido.name = "Fido"
-
-puts fido.name
 
 end
